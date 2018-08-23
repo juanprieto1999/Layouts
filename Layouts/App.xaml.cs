@@ -11,7 +11,7 @@ namespace Layouts
         {
             InitializeComponent();
 
-            MainPage = new nExpancion();
+            MainPage = new GridLayout();
         }
 
         protected override void OnStart()
