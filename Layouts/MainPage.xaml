@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:Layouts" x:Class="Layouts.MainPage">
+    <StackLayout Margin="0,5"
+                 Orientation="Horizontal">
+        <Button 
+        BackgroundColor="Black"
+            TextColor="White"
+            Text="Fill"
+            HorizontalOptions="Fill"
+        />
+         <Button 
+        BackgroundColor="Black"
+            TextColor="White"
+            Text="start"
+            VerticalOptions="Start"
+        />
+         <Button 
+        BackgroundColor="Black"
+            TextColor="White"
+            Text="center"
+            VerticalOptions="Center"
+        />
+         <Button 
+        BackgroundColor="Black"
+            TextColor="White"
+            Text="end"
+            VerticalOptions="End"
+        />
+
+
+    </StackLayout>
+</ContentPage>

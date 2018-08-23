@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Layouts.nExpancion">
+    <ContentPage.Content>
+        <StackLayout Margin="0,5">
+            
+
+        <BoxView BackgroundColor="Red"
+                 HeightRequest="2"/>
+            <Label
+                Text="Start"
+                VerticalOptions="StartAndExpand"
+            />
+             <BoxView BackgroundColor="Red"
+                 HeightRequest="2"/>
+            <Label
+                Text="Center"
+                 VerticalOptions="CenterAndExpand"
+            />
+                <BoxView BackgroundColor="Red"
+                 HeightRequest="2"/>
+            <Label
+                Text="End"
+                VerticalOptions="EndAndExpand"
+            />
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
